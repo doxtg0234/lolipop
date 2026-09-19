@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FilmyFly - Online Shared FilmyFly4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Technical SEO -->
+<link rel="canonical" href="https://filmyfly4.in/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="googlebot" content="index,follow">
+<meta name="bingbot" content="index,follow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FilmyFly4">
+<meta property="og:title" content="FilmyFly">
+<meta property="og:description" content="Visit Site, genres and movie-related information with a fast, responsive interface.">
+<meta property="og:url" content="https://filmyfly4.in/">
+<meta property="og:image" content="https://filmyfly4.in/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FilmyFly — Movie Discovery">
+<meta name="twitter:description" content="Visit Site, genres and movie-related information with a fast, responsive interface.">
+<meta name="twitter:image" content="https://filmyfly4.in/og-image.jpg">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"FilmyFly",
+  "url":"https://filmyfly4.in/",
+  "description":"FilmyFly4 A fast, responsive movie discovery website for exploring titles, genres and movie-related information.",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://filmyfly4.in/?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"FilmyFly",
+  "url":"https://filmyfly4.in/"
+}
+</script>
+
+<meta name="theme-color" content="#070812">
+<meta name="color-scheme" content="dark">
+</head>
+<body>
+<noscript><div class="noscript-seo container"><strong>FilmyFly</strong> — Explore movie titles, genres and movie-related information online. JavaScript is disabled, so some interactive features may be unavailable.</div></noscript>
+<main id="home">
+<section class="hero site-header">
+  <div class="hero-orb"></div>
+  <div class="container">
+    <div class="language-switcher" aria-label="Language selector">
+      <div class="language-label-wrap">
+        <i class="fa-solid fa-language" aria-hidden="true"></i>
+        <span class="language-label" data-i18n="language">Language</span>
+      </div>
+
+      <div class="language-dropdown" id="languageDropdown">
+        <button class="language-trigger" id="languageTrigger" type="button"
+                aria-haspopup="listbox" aria-expanded="false" aria-controls="languageMenu">
+          <span class="language-flag" id="languageFlag" aria-hidden="true">🇺🇸</span>
+          <span class="language-current" id="languageCurrent">English</span>
+          <i class="fa-solid fa-chevron-down language-chevron" aria-hidden="true"></i>
+        </button>
+
+        <div class="language-menu" id="languageMenu" role="listbox" aria-label="Choose language">
+          <button class="language-option is-active" type="button" role="option" data-lang="en" aria-selected="true">
+            <span class="language-option-flag">🇺🇸</span><span class="language-option-name">English</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="bn" aria-selected="false">
+            <span class="language-option-flag">🇧🇩</span><span class="language-option-name">বাংলা</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="hi" aria-selected="false">
+            <span class="language-option-flag">🇮🇳</span><span class="language-option-name">हिन्दी</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="es" aria-selected="false">
+            <span class="language-option-flag">🇪🇸</span><span class="language-option-name">Español</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="fr" aria-selected="false">
+            <span class="language-option-flag">🇫🇷</span><span class="language-option-name">Français</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="de" aria-selected="false">
+            <span class="language-option-flag">🇩🇪</span><span class="language-option-name">Deutsch</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="ar" aria-selected="false">
+            <span class="language-option-flag">🇦🇪</span><span class="language-option-name">العربية</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="zh" aria-selected="false">
+            <span class="language-option-flag">🇨🇳</span><span class="language-option-name">中文</span><span class="language-check">✓</span>
+          </button>
+          <button class="language-option" type="button" role="option" data-lang="ja" aria-selected="false">
+            <span class="language-option-flag">🇯🇵</span><span class="language-option-name">日本語</span><span class="language-check">✓</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="eyebrow" data-i18n="eyebrow"><span class="dot"></span> Your cinematic destination</div>
+    <h1 class="site-title"><span class="gradient">FilmyFly</span></h1>
+    <p><span data-i18n="intro">FilmyFly gives movie fans a cleaner way to explore titles, genres and movie-related information from around the web — with a fast, modern interface built for every screen.</span></p>
+    <div class="actions">
+      <button class="btn btn-main" id="visitSite" type="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-i18n="visit">Visit Site</span></button>
+      <a class="btn btn-ghost" href="#about"><i class="fa-solid fa-circle-info"></i> <span data-i18n="how">How It Works</span></a>
+    </div>
+    <div class="hero-stats">
+      <div><b data-i18n="simple">Simple</b><span data-i18n="simple_p">Clean discovery</span></div>
+      <div><b data-i18n="fast">Fast</b><span data-i18n="fast_p">Built for browsing</span></div>
+      <div><b data-i18n="responsive">Responsive</b><span data-i18n="responsive_p">Any device</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="ad" data-i18n="advertisement">Advertisement</div></div>
+
+<section id="categories" class="content">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker" data-i18n="browse_mood">Browse your mood</div><h2><span data-i18n="explore">Explore categories</span></h2></div>
+      <span data-i18n="pick">Pick a genre and start exploring</span>
+    </div>
+    <div class="genre-grid">
+      <a class="genre"><i class="fa-solid fa-fire"></i><h3><span data-i18n="trending">Trending</span></h3><p><span data-i18n="trending_p">Popular titles and fresh discoveries.</span></p></a>
+      <a class="genre"><i class="fa-solid fa-face-laugh"></i><h3><span data-i18n="comedy">Comedy</span></h3><p><span data-i18n="comedy_p">Light, fun and entertaining picks.</span></p></a>
+      <a class="genre"><i class="fa-solid fa-ghost"></i><h3><span data-i18n="horror">Horror</span></h3><p><span data-i18n="horror_p">Dark stories for a late-night watch.</span></p></a>
+      <a class="genre"><i class="fa-solid fa-heart"></i><h3><span data-i18n="romance">Romance</span></h3><p><span data-i18n="romance_p">Stories built around love and emotion.</span></p></a>
+    </div>
+
+    <div id="about" class="info">
+      <div class="kicker" data-i18n="experience">The FilmyFly experience</div>
+      <h2 data-i18n="simpler">A simpler way to discover movies online.</h2>
+      <p data-i18n="about_intro">FilmyFly is a modern movie discovery website designed to help visitors find movie-related information and publicly available resources across the web. The interface keeps the important things easy to find, so browsing feels quick instead of complicated.</p>
+      <p data-i18n="external_disclaimer">FilmyFly does not directly host movie files on its own servers. Instead, it can organize and surface information or links that are publicly available online. Third-party pages are operated independently and may change at any time.</p>
+
+      <h3 data-i18n="getting_started">How to get started</h3>
+      <p data-i18n="getting_started_p">Start from the homepage and explore the available categories. If a search feature is enabled on your version of the site, enter a movie title or related keyword to find a relevant result faster. Select a title to view the information available for that movie.</p>
+
+      <h3 data-i18n="understanding">Understanding external resources</h3>
+      <p data-i18n="understanding_p">Links to third-party websites are outside the control of FilmyFly. A link shown on this website does not by itself mean that FilmyFly owns, operates or endorses the destination. Always review the destination website's own terms, privacy policy and applicable copyright rules before using it.</p>
+
+      <h3 data-i18n="designed">Designed for every screen</h3>
+      <p data-i18n="designed_p">The responsive layout is optimized for smartphones, tablets, laptops and desktop computers. Navigation, typography, cards and spacing automatically adapt to smaller screens for a smoother browsing experience.</p>
+
+      <h3 data-i18n="goal_heading">Our goal</h3>
+      <p data-i18n="goal_p">Our goal is straightforward: make movie discovery feel clean, fast and enjoyable. We focus on clear organization, useful information and a polished interface that helps visitors spend less time searching and more time discovering something worth watching.</p>
+
+      <div class="feature-list">
+        <div class="feature"><i class="fa-solid fa-link"></i><b data-i18n="public_resources">Public resources</b><p data-i18n="public_resources_p">Organized links and information from publicly accessible online sources.</p></div>
+        <div class="feature"><i class="fa-solid fa-mobile-screen-button"></i><b data-i18n="mobile_ready">Mobile ready</b><p data-i18n="mobile_ready_p">A responsive experience for phones, tablets and desktop screens.</p></div>
+        <div class="feature"><i class="fa-solid fa-bolt"></i><b data-i18n="fast_interface">Fast interface</b><p data-i18n="fast_interface_p">Lightweight layout with modern visual effects and simple navigation.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-in">
+    <div>© <b>FilmyFly</b> — All Rights Reserved.</div>
+    <div data-i18n="footer_tagline">Discover more. Browse smarter.</div>
+  </div>
+</footer>
+
+<div class="cookie" id="cookie">
+  <div><i class="fa-solid fa-cookie-bite"></i> <span data-i18n="cookie_text">We use cookies to improve your experience and analyze site traffic.</span></div>
+  <button class="accept" id="accept" data-i18n="accept">Accept</button><button id="close" data-i18n="close">Close</button>
+</div>
+
+<div class="privacy-modal" id="privacyModal" aria-hidden="true">
+  <div class="privacy-backdrop" id="privacyBackdrop"></div>
+  <div class="privacy-card" role="dialog" aria-modal="true" aria-labelledby="privacyTitle">
+    <button class="privacy-close" id="privacyClose" aria-label="Close privacy policy">&times;</button>
+    <div class="privacy-kicker" data-i18n="privacy">Privacy</div>
+    <h2 id="privacyTitle" data-i18n="privacy_policy">Privacy Policy</h2>
+    <p data-i18n="privacy_intro">We respect your privacy. FilmyFly may use cookies and similar technologies to improve website functionality, understand how visitors use the site, and provide a better browsing experience.</p>
+    <h3 data-i18n="cookies">Cookies</h3>
+    <p data-i18n="cookies_p">Cookies can remember preferences and help us understand general site usage. You can manage or disable cookies through your browser settings.</p>
+    <h3 data-i18n="information">Information</h3>
+    <p data-i18n="information_p">We do not ask you to provide unnecessary personal information simply to browse this website. Third-party services or linked websites may have their own privacy policies.</p>
+    <h3 data-i18n="updates">Updates</h3>
+    <p data-i18n="updates_p">This Privacy Policy may be updated when the website's features or practices change.</p>
+    <button class="privacy-ok" id="privacyOk" data-i18n="got_it">Got it</button>
+  </div>
+</div>
+<div class="visit-loader" id="visitLoader" aria-hidden="true">
+  <div class="visit-loader-card">
+    <div class="progress-ring">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <defs>
+          <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7c5cff"/>
+            <stop offset="100%" stop-color="#00d9ff"/>
+          </linearGradient>
+        </defs>
+        <circle class="ring-bg" cx="60" cy="60" r="50"></circle>
+        <circle class="ring-progress" id="ringProgress" cx="60" cy="60" r="50"></circle>
+      </svg>
+      <span id="visitPercent">0%</span>
+    </div>
+    <div class="visit-loader-title" data-i18n="opening_site">Opening site</div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

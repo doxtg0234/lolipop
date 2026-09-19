@@ -1,0 +1,9 @@
+{
+  "name":"FilmyFly",
+  "short_name":"FilmyFly",
+  "start_url":"https://filmyfly4.in",
+  "display":"standalone",
+  "background_color":"#05060a",
+  "theme_color":"#070812",
+  "description":"Fast movie discovery website."
+}
